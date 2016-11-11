@@ -24,10 +24,11 @@ to sql database.
 
 1. Download Vagrant VM from Udacity
 2. Open Terminal and navigate to vagrant folder
-  * Type 'vagrant up'
-3. SSH in to the Vagrant VM by typing 'vagrant ssh'
-4. Type in 'cd /vagrant/tournament' to navigate to correct folder
-5. Type in 'psql' to open PSQL
+  * Type `vagrant up`
+3. SSH in to the Vagrant VM by typing `vagrant ssh`
+4. Type in `cd /vagrant/tournament` to navigate to correct folder
+5. Type in `psql` to open PSQL
   * Copy the code from tournament.sql and paste it in the terminal window.
-  * type '\q' to exit PSQL
-6. To run tests type in 'python tournament_test.py'. You will see a success message if all test pass.
+  * type `\q` to exit PSQL
+6. To run tests type in `python tournament_test.py`. You will see a success message if all test pass.
+
